@@ -1,0 +1,55 @@
+components
+	Cart
+		Cart.js
+		CartIcon.js
+		CartItem.js
+	Layout
+		Header.js
+		HeaderCartButton.js
+	Meals
+		AvailableMeals.js
+		Meals.js
+		MealsSummary.js
+
+		MealItem
+			MealItem.js
+			MealItemForm.js
+	UI
+		Card.js
+		Input.js
+		Modal.js
+	
+
+
+
+MealsSummary.js --
+Choose your favorite meal from our broad selection of available meals and enjoy a delicious lunch or dinner at home.	
+All our meals are cooked with high-quality ingredients, just-in-time and of course by experienced chefs!
+
+
+const DUMMY_MEALS = [
+  {
+    id: "m1",
+    name: "Sushi",
+    description: "Finest fish and veggies",
+    price: 22.99,
+  },
+  {
+    id: "m2",
+    name: "Schnitzel",
+    description: "A german specialty!",
+    price: 16.5,
+  },
+  {
+    id: "m3",
+    name: "Barbecue Burger",
+    description: "American, raw, meaty",
+    price: 12.99,
+  },
+  {
+    id: "m4",
+    name: "Green Bowl",
+    description: "Healthy...and green...",
+    price: 18.99,
+  },
+];
