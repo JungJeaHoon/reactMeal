@@ -29,7 +29,7 @@ const cartReducer = (state, action) => {
   if(action.type === 'REMOVE'){
     const existingCartItemIndex = state.items.findIndex((item)=>item.id === action.id)
     const existingCartItem = state.items[existingCartItemIndex]; //기존아이템이 없을 경우  underfinded    
-    const updatedTotalAmount = state.totalAmount - existingCartItem .price; //총합계에서 현재 아이템 가격을 빼줌
+    const updatedTotalAmount = state.totalAmount - existingCartItem.price; //총합계에서 현재 아이템 가격을 빼줌
 
     let updatedItems;
     if(existingCartItem.amount === 1 ){
